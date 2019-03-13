@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgb(205, 147, 87,0.7), rgb(232, 114, 171,0.7)), url(../img/back.jpg);
+    background-image: linear-gradient(rgba(205, 147, 87, 0.7), rgba(232, 114, 171, 0.7)), url(../img/back.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -105,6 +105,10 @@ body {
 
 button {
     position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 32px;
     width: 200px;
     left: 50%;
     transform: translateX(-50%);
